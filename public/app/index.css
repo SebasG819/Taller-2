@@ -1,0 +1,62 @@
+.feat{
+
+    margin-top: 1%;
+    position: fixed;
+}
+
+h1{
+    font-size: 300%;
+    font-family: PressStart2P-Regular;
+    color: aliceblue;
+}
+
+.main{
+
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.gpost{
+    display: flex;
+    flex-direction: column;
+}
+.side
+{
+    position: fixed;
+
+}
+
+h3{
+
+    margin-left: 450%;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+
+
+}
+
+.See{
+
+    margin-left: 530%;
+    margin-top: -22%;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+@media screen and (max-width: 400px){
+
+    .feat{
+
+        margin-top: 1%;
+        position: fixed;
+        display: none;
+    }
+    
+  }
